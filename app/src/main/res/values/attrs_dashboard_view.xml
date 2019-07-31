@@ -1,0 +1,65 @@
+<resources>
+    <declare-styleable name="DashboardView">
+        <!--底部显示的标题-->
+        <attr name="dv_title_text" format="string" />
+        <!--背景颜色-->
+        <attr name="dv_bg" format="color" />
+        <!--底部显示的标题的颜色-->
+        <attr name="dv_title_color" format="color" />
+        <!--底部显示的标题的字体大小-->
+        <attr name="dv_title_size" format="dimension" />
+        <!--得分-->
+        <attr name="dv_score_text" format="integer" />
+        <!--得分字体颜色-->
+        <attr name="dv_score_color" format="color" />
+        <!--得分字体大小-->
+        <attr name="dv_score_size" format="dimension" />
+        <!--弧形的半径-->
+        <attr name="dv_arc_radius" format="dimension" />
+        <!--得分阴影-->
+        <attr name="dv_score_shadow" format="dimension" />
+        <!--弧形的颜色-->
+        <attr name="dv_arc_color" format="color" />
+        <!--弧形的背景颜色-->
+        <attr name="dv_arc_bg_color" format="color" />
+        <!--弧形的宽度-->
+        <attr name="dv_arc_width" format="dimension" />
+        <!--最大值-->
+        <attr name="dv_max" format="integer" />
+        <!--最小值-->
+        <attr name="dv_min" format="integer" />
+        <!--大刻度数量-->
+        <attr name="dv_scale_big" format="integer" />
+        <!--大刻度内部的小刻度数量-->
+        <attr name="dv_scale_small" format="integer" />
+        <!--刻度显示的位置-->
+        <attr name="dv_scale_text_type">
+            <!--弧形内部显示-->
+            <enum name="inside" value="0" />
+            <!--弧形外部显示-->
+            <enum name="outside" value="1" />
+        </attr>
+        <!--刻度文字与弧形的间距-->
+        <attr name="dv_scale_text_margin" format="dimension" />
+        <!--刻度文字大小-->
+        <attr name="dv_scale_text_size" format="dimension" />
+        <!--低于当前值时刻度的颜色-->
+        <attr name="dv_scale_text_color_less" format="color" />
+        <!--超过当前值时刻度的颜色-->
+        <attr name="dv_scale_text_color_more" format="color" />
+        <!--当前值-->
+        <attr name="dv_scale_current_value" format="integer" />
+        <!--弧形绘制的开始角度-->
+        <attr name="dv_angle_start" format="float" />
+        <!--弧形绘制的结束角度-->
+        <attr name="dv_angle_end" format="float" />
+        <!--进度条动画的时间-->
+        <attr name="dv_duration" format="float" />
+        <!--是否显示大刻度-->
+        <attr name="dv_is_show_big_scale" format="boolean" />
+        <!--是否显示小刻度-->
+        <attr name="dv_is_show_small_scale" format="boolean" />
+
+
+    </declare-styleable>
+</resources>
